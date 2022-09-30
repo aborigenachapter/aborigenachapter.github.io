@@ -10,34 +10,28 @@
 /*---------------Updated new changes-----------------------------*/
 
 #banner {
-	background: url("../../images/chapter_group.png");
+	background: url("../../images/chapter_group4.JPG");
 	width: 100%;
-	height: 96vh;
-	/* -webkit-background-size: 100% 100%;
-	-webkit-background-attachment: fixed;
-	-webkit-background-position: center, top;
-	-webkit-background-repeat: no-repeat;
-	background-size: 100% 100%;
+	height: 100vh;
 	background-attachment: fixed;
-	background-position: center, top;
-	background-repeat: no-repeat; */
+	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	/* background-size: cover; */
 	background-position: center, top;
 }
 
 #banner h2 {
 	color: white;
 	text-shadow: 1px 2px 2px black;
-	letter-spacing: 0px;
-	font-size: 2.5em;
+	letter-spacing: 0.5px;
+	font-size: 2.4em;
 }
 
 @media screen and (max-width: 780px) {
 	#banner {
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
-		background-position:bottom, center;
+		background-position: center, top;
+		background-attachment: scroll;
 		height: 60vh;
 	}
 }
@@ -3513,7 +3507,7 @@ input, select, textarea {
 			-ms-filter: blur(0);
 			filter: blur(0);
 			opacity: 1;
-			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			border-bottom: solid 2px rgba(236, 236, 236, 0.3);
 			/* font-size: 2.25em; */
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
@@ -4297,7 +4291,7 @@ input, select, textarea {
 }
 
 #pic1 {
-	background: url("../../images/group2.JPG");
+	background: url("../../images/chapter_group1.JPG");
 	max-width: 500px;
 	height: 400px;
 	background-size: cover;
@@ -4305,7 +4299,7 @@ input, select, textarea {
 }
 
 #pic2 {
-	background: url("../../images/group3.JPG");
+	background: url("../../images/chapter_group2.JPG");
 	max-width: 500px;
 	height: 400px;
 	background-size: cover;
@@ -4313,7 +4307,7 @@ input, select, textarea {
 }
 
 #pic3 {
-	background: url("../../images/group4.JPG");
+	background: url("../../images/chapter_group3.JPG");
 	max-width: 500px;
 	height: 400px;
 	background-size: cover;
@@ -4321,17 +4315,27 @@ input, select, textarea {
 }
 
 #pic4 {
-	background: url("../../images/group5.JPG");
+	background: url("../../images/chapter_group5.JPG");
 	max-width: 500px;
 	height: 400px;
 	background-size: cover;
 	background-position: center;
 }
 
-/* .img {
-	width: 100%;
-	height: 500px;
-} */
+#pic5 {
+	background: url("../../images/banquet_pic1.JPG");
+	max-width: 500px;
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+}
 
+#pic6 {
+	background: url("../../images/crossing_pic1.JPG");
+	max-width: 500px;
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+}
 
 /*---------------------------------------------------------------------------------------*/
